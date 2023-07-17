@@ -1,9 +1,9 @@
+import useFormulario from "../hooks/useFormulario";
 import Paciente from "./Paciente"
-import useMascota from "../hooks/useMascota";
 
 export const ListadoPacientes = () => {
 
-  const { pacientes, setPaciente, eliminarPaciente } = useMascota();
+  const { pacientes, setPaciente, eliminarPaciente } = useFormulario();
 
   
   return (
